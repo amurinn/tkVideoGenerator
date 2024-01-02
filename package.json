@@ -1,0 +1,26 @@
+{
+  "name": "tkvideogenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.3",
+    "dotenv": "^16.3.1",
+    "ffmpeg": "^0.0.4",
+    "fs": "^0.0.1-security",
+    "midjourney": "^4.3.13",
+    "top-level-await": "^1.1.0"
+  }
+}
